@@ -1,0 +1,43 @@
+h2{
+    text-align: center;
+    color: blue;
+}
+h2, p {
+    font-family: arial, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-between; /* Đẩy 2 phần tử ra 2 phía */
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+}
+.thongtin {
+    margin: 0 20px;
+    margin-bottom: 5px;
+}
+p {
+    color: blue;
+}
+table {
+    width:100%;
+    margin: auto;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    background-color: #ffff54;
+    padding: 5px;
+    text-align: center;
+}
+td {
+    padding: 5px;
+}
+tr:nth-child(2) {
+    text-align: center;
+    font-weight: bold;
+    background-color: #ffb022;
+}
+td:nth-child(1) {
+    text-align: center;
+}
