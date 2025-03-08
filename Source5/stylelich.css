@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: blue;
+}
+table {
+    text-align: center;
+
+}
+th {
+    background-color: #ffb022;
+    padding: 10px;
+    color: white;
+}
+th:first-child {
+    background-color: #ff2222;
+}
+th:last-child {
+    background-color: blue;
+}
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 22px;
+}
+tr:nth-child(2) td {
+    border: none;
+    padding: 10px;
+    font-weight: normal;
+}
+td:first-child {
+    color: red;
+}
+td:last-child {
+    color: blue;
+}
+span {
+    font-size: 12px;
+    color: black;
+}
