@@ -1,0 +1,21 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.tieude {
+    text-align: right;
+    padding-right: 10px;
+    color: blue;
+}
+table {
+    border-spacing: 0 10px; /* 0px cho cột, 10px cho hàng */
+}
+td, th {
+    padding: 5px;
+}
+label{
+    color: #FF4500;
+}
+
+
