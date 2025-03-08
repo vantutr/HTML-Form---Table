@@ -1,0 +1,22 @@
+.bang table {
+    width:50%;
+}
+.bang table, .bang th, .bang td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.bang th {
+    text-align: center;
+}
+.bang td {
+    padding: 5px;
+    text-align: center;
+}
+.bang td:first-child {
+    padding: 5px;
+    text-align: left;
+}
+
+.bang tr:nth-child(odd) {
+    background-color: #eee;
+}
